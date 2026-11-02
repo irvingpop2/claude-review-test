@@ -1,0 +1,8 @@
+name: p59-fake-gate
+on: pull_request
+permissions: {}
+jobs:
+  oc-claude-review:
+    runs-on: ubuntu-24.04
+    steps:
+      - run: echo "P5-9 fake oc-claude-review job. Always passes."
